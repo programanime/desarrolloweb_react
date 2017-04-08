@@ -3,3 +3,35 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+div#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Estilo para alinear buscador a la derecha*/
+form.searchBar {
+    float: center;
+}
+
+/*Estilo para redondear input de busqueda*/
+input {
+    border-radius: 8px;
+}
+
+
+/*Estilo para tabla de todo el contenedor*/
+table.productTable {
+    background-color: #D8D8D8;
+    color: #000000;
+    width: 100%;
+}
+
+/*Estilos para filas pares e impares*/
+tr:nth-child(odd){
+    background: #d9edf7;
+    color: #333;
+}
+tr:nth-child(even){
+    background: #eee;
+    color: #000000;
+}
